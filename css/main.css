@@ -242,71 +242,34 @@ footer .social-icons a {
   margin-right: 0px;
 }
 
-.social-icons a.facebook {
-  background-image: url(../images/facebook.png);
+.social-icons a.email {
+  background-image: url(../images/email.png);
 }
+
 .social-icons a.twitter {
   background-image: url(../images/twitter.png);
 }
+
+.social-icons a.github {
+  background-image: url(../images/github.png);
+}
+
 .social-icons a.linkedin {
   background-image: url(../images/linkedin.png);
 }
-.social-icons a.youtube {
-  background-image: url(../images/youtube.png);
-}
-.social-icons a.dribbble {
-  background-image: url(../images/dribbble.png);
-}
-.social-icons a.flickr {
-  background-image: url(../images/flickr.png);
-}
-.social-icons a.pinterest {
-  background-image: url(../images/pinterest.png);
-}
-.social-icons a.vimeo {
-  background-image: url(../images/vimeo.png);
-}
-.social-icons a.tumblr {
-  background-image: url(../images/tumblr.png);
-}
-.social-icons a.skype {
-  background-image: url(../images/skype.png);
-}
 
-.social-icons a.facebook:hover {
-	background-color: #4265b9;
+.social-icons a.email:hover {
+	background-color: #87AD81;
 }
 
 .social-icons a.twitter:hover {
-	background-color: #35506b;
+	background-color: #9ae4e8;
 }
 
-.social-icons a.dribbble:hover {
-	background-color: #ea4c89;
-}
-
-.social-icons a.flickr:hover {
-	background-color: #ff0084;
-}
-
-.social-icons a.skype:hover {
-	background-color: #0bbff2;
-}
-
-.social-icons a.pinterest:hover {
-	background-color: #c31e26;
+.social-icons a.github:hover {
+	background-color: #801480;
 }
 
 .social-icons a.linkedin:hover {
  background-color: #005987;
-}
-.social-icons a.vimeo:hover {
-  background-color: #1bb6ec;
-}
-.social-icons a.tumblr:hover {
-  background-color: #9ae4e8;
-}
-
-.social-icons a.youtube:hover {
-  background-color: #df3333;
 }
