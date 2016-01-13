@@ -14,7 +14,7 @@
 	}
 	
   .light-font , blockquote {
-    color: #c1c0c0;
+    color: #a1a1a1;
   }
   
 	a:focus , a:active {
@@ -86,14 +86,12 @@
 /* Post content */
 
 section.apps {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 45px;
-  
 }
 
 section.apps.single-apps-page {
   padding-top: 30px;
-
 }
 
 section.apps > .container > .row >  .single-post {
@@ -112,6 +110,10 @@ section.apps > .container > .row > .single-post:last-child {
 section.apps .single-post > .post-image {
     border-radius: 4px;
     overflow: hidden;
+}
+
+.separator {
+	margin-top: 20px;
 }
 
 /* Post content */
