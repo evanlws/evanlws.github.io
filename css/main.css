@@ -63,7 +63,7 @@
 
   /* Main buttons color */
   .goToLink a {
-     background-color: #38b49d;
+     background-color: #87AD81;
   }
 
   /*
@@ -202,11 +202,9 @@ span.highlight {
 }
 
 footer .copyrights {
-  margin-top: 10px;
   clear: both;
   width: 100%;
   margin-bottom: 30px;
-  /*margin-left: 5%;*/
 }
 
 footer .social-icons {
