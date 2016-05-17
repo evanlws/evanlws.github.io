@@ -232,9 +232,8 @@ section.apps .single-post > .post-content .post-inner-content {float: left;
     }
 
     .social-icons a {
-        width: 40px;
         height: 40px;
-        margin-right: 10px;
+        width: 40px;
         background-position: center center;
         background-repeat: no-repeat;
         border-radius: 3px;
@@ -243,7 +242,13 @@ section.apps .single-post > .post-content .post-inner-content {float: left;
         transition: background-color 0.5s;
     }
 
-    .social-icons a:last-child {
+    .social-icon {
+        height: inherit;
+        margin-right: 20px;
+        display: inline-block;
+    }
+
+    .social-icons div:last-child {
         margin-right: 0px;
     }
 
