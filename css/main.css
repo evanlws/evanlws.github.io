@@ -103,7 +103,7 @@ section.apps.single-apps-page {
 }
 
 section.apps > .container > .row >  .single-post {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     clear: both;
     float: left;
     width: 100%;
@@ -118,6 +118,7 @@ section.apps > .container > .row > .single-post:last-child {
 section.apps .single-post > .post-image {
     border-radius: 4px;
     overflow: hidden;
+    margin-left: 0px;
 }
 
 .separator {
@@ -128,10 +129,9 @@ section.apps .single-post > .post-image {
 
 section.apps .single-post > .post-content .post-inner-content {float: left;
     clear: both;
-    width: 76%;
+    width: 80%;
     padding-left: 8%;
     padding-right: 8%;
-    margin-left: 4%;
     padding-top: 45px;
     padding-bottom: 45px;
     background: #fff;
@@ -201,7 +201,6 @@ section.apps .single-post > .post-content .post-inner-content {float: left;
         color: #fff;
     }
 
-
     /* --------------------------------------------------------------
     Footer
     -------------------------------------------------------------- */
@@ -246,6 +245,12 @@ section.apps .single-post > .post-content .post-inner-content {float: left;
         height: inherit;
         margin-right: 20px;
         display: inline-block;
+    }
+
+    .social-icons div:first-child {
+        margin-left: 10px;
+        margin-right: 0px;
+        padding-bottom: 20px;
     }
 
     .social-icons div:last-child {
