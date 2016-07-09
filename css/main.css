@@ -62,7 +62,8 @@ Main Styles
 .about {
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    min-width: 375px;
+    max-width:850px;
 }
 
 a:hover {
