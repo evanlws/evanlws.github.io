@@ -238,10 +238,10 @@ a:focus {
 .row:after {
   clear: both;
 }
+
 [class*="span"] {
   float: left;
   min-height: 1px;
-  margin-left: 20px;
 }
 .container,
 .navbar-static-top .container,

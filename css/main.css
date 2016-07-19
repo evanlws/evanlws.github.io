@@ -114,10 +114,8 @@ section.apps > .container > .row > .single-post:last-child {
     margin-bottom: 0px;
 }
 
-
 /* Post Image */
 section.apps .single-post > .post-image {
-    border-radius: 4px;
     overflow: hidden;
     margin-left: 0px;
 }
@@ -128,9 +126,9 @@ section.apps .single-post > .post-image {
 
 /* Post content */
 
-section.apps .single-post > .post-content .post-inner-content {float: left;
+section.apps .single-post > .post-content .post-inner-content {
+    float: left;
     clear: both;
-    width: 80%;
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 45px;
@@ -139,10 +137,7 @@ section.apps .single-post > .post-content .post-inner-content {float: left;
     border-right: 1px solid #E9E9E9;
     border-left: 1px solid #E9E9E9;
     border-bottom: 1px solid #E9E9E9;
-    border-radius: 0 0 6px 6px;
-
-    -webkit-border-radius: 0 0 6px 6px;}
-
+}
 
     .single-post .post-inner-content .main-content p ,
     .single-post .post-inner-content .main-content a,
@@ -172,12 +167,27 @@ section.apps .single-post > .post-content .post-inner-content {float: left;
 
     }
 
-    .goToLink {
+    section.apps > .container > .row >  .goToLink {
+        margin-bottom: 20px;
         clear: both;
         width: 100%;
+    }
+
+    .goToLinks > div:first-child {
+        margin-right: 20px;
+    }
+
+    .goToLinks {
+        width: 100%;
+        text-align: center;
+    }
+
+    .goToLink {
+        clear: both;
+        display: inline-block;
         text-align: center;
         margin-top: 35px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .goToLink a {
@@ -188,7 +198,6 @@ section.apps .single-post > .post-content .post-inner-content {float: left;
         padding: 18px 18px;
         border-radius: 3px;
         -webkit-border-radius: 3px;
-
     }
 
     .goToLink a:hover {
