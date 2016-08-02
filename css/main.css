@@ -234,6 +234,10 @@ section.apps .single-post > .post-content .post-inner-content {
         margin-bottom: 10px;
     }
 
+    p .contactLabel {
+        text-align: center;
+    }
+
     .social-icons {
         float: left;
         clear: both;
