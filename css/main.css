@@ -70,6 +70,10 @@ a:hover {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Main buttons color */
 .goToLink a {
     background-color: #87AD81;
@@ -232,10 +236,6 @@ section.apps .single-post > .post-content .post-inner-content {
 
     footer .social-icons a {
         margin-bottom: 10px;
-    }
-
-    p .contactLabel {
-        text-align: center;
     }
 
     .social-icons {
