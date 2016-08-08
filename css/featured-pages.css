@@ -73,14 +73,19 @@ Main Content
     padding-bottom: 5%;
 }
 
-#top-marks {
+body#top-marks {
     background-image: url("../images/university-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-h2, h3, p {
+section#top-marks > h2, section#top-marks > h3, section#top-marks > p {
     color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section#top-marks > h3, section#top-marks > h2 {
+    font-weight: lighter;
 }
 
 section.main-image {
@@ -96,4 +101,13 @@ section.main-text {
 section.main-text > p, h3 {
     padding-bottom: 5px;
     padding-bottom: 5%;
+}
+
+footer > p, footer > a {
+    font-size: .8em;
+    text-align: center;
+}
+
+footer#top-marks > a >p, footer#top-marks > a {
+    color: white;
 }
