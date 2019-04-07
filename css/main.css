@@ -74,6 +74,10 @@ img {
     max-width: 100%;
 }
 
+hr {
+    border-color: rgba(0, 0, 0, 0.19);
+}
+
 /* Main buttons color */
 .goToLink a {
     background-color: #87AD81;
