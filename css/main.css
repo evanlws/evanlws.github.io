@@ -62,12 +62,23 @@ Main Styles
 .about {
     margin-left: auto;
     margin-right: auto;
-    min-width: 375px;
-    max-width:850px;
+    /* min-width: 375px;
+    max-width:850px; */
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    vertical-align: middle;
 }
 
 a:hover {
     text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -96,16 +107,27 @@ button hover color
     background-color: #dadada;
 }
 
+.social-icons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-80px, 0px);
+    -ms-transform: translate(-80px, 0px);
+}
+
 body {
     background: #f2f2f2;
+    position: relative;
+    height: 100vh;
+    padding: 0;
+}
+
+#last-item {
+    margin-right: 0;
 }
 
 /* Post content */
 
-section.apps {
-    padding-top: 20px;
-    padding-bottom: 45px;
-}
 
 section.apps.single-apps-page {
     padding-top: 30px;
@@ -133,20 +155,6 @@ section.apps .single-post > .post-image {
 }
 
 /* Post content */
-
-section.apps .single-post > .post-content .post-inner-content {
-    float: left;
-    clear: both;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background: #fff;
-    border-right: 1px solid #E9E9E9;
-    border-left: 1px solid #E9E9E9;
-    border-bottom: 1px solid #E9E9E9;
-}
-
     .single-post .post-inner-content .main-content p ,
     .single-post .post-inner-content .main-content a,
     .single-post .post-inner-content .main-content span,
@@ -232,22 +240,6 @@ section.apps .single-post > .post-content .post-inner-content {
         margin-bottom: 400px;
     }
 
-    footer .social-icons {
-        margin-top: 0px;
-        width: 100%;
-        margin-bottom: 35px;
-    }
-
-    footer .social-icons a {
-        margin-bottom: 10px;
-    }
-
-    .social-icons {
-        float: left;
-        clear: both;
-        text-align: center;
-    }
-
     .social-icons a {
         height: 40px;
         width: 40px;
@@ -260,19 +252,8 @@ section.apps .single-post > .post-content .post-inner-content {
     }
 
     .social-icon {
-        height: inherit;
-        margin-right: 20px;
+        margin-right: 0px;
         display: inline-block;
-    }
-
-    .social-icons div:first-child {
-        margin-left: 10px;
-        margin-right: 0px;
-        padding-bottom: 20px;
-    }
-
-    .social-icons div:last-child {
-        margin-right: 0px;
     }
 
     .social-icons a.email {
