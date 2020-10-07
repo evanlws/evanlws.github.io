@@ -272,6 +272,10 @@ section.apps .single-post > .post-image {
         background-image: url(../images/linkedin.png);
     }
 
+    .social-icons a.mta-subway-sounds {
+        background-image: url(../images/mta_subway_sounds.png);
+    }
+
     .social-icons a.email:hover {
         background-color: #87AD81;
     }
@@ -286,4 +290,8 @@ section.apps .single-post > .post-image {
 
     .social-icons a.linkedin:hover {
         background-color: #005987;
+    }
+
+    .social-icons a.mta-subway-sounds:hover {
+        background-color: #3350A6;
     }
