@@ -274,6 +274,7 @@ section.apps .single-post > .post-image {
 
     .social-icons a.mta-subway-sounds {
         background-image: url(../images/mta_subway_sounds.png);
+        background-position-y: 14px;
     }
 
     .social-icons a.email:hover {
